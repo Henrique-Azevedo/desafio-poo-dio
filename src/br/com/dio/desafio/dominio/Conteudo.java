@@ -7,7 +7,8 @@ public abstract class Conteudo {
     private String titulo;
     private String descricao;
 
-    public abstract double cacularXP();
+
+    public abstract double calcularXP();
 
     public String getTitulo() {
         return titulo;
@@ -27,7 +28,7 @@ public abstract class Conteudo {
 
     @Override
     public String toString() {
-        return "Conteudo{" +
+        return " Conteudo{" +
                 "titulo='" + titulo + '\'' +
                 ", descricao='" + descricao + '\'' +
                 '}';

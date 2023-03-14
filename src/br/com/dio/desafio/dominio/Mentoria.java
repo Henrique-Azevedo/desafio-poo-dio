@@ -9,6 +9,15 @@ public class Mentoria extends Conteudo{
     public Mentoria() {
     }
 
+
+    //public double calcularXP() {
+      //  return 0;
+    //}
+
+    public double calcularXP() {
+        return XP_PADRAO * 20d;
+    }
+
     public LocalDate getData() {
         return data;
     }
@@ -21,13 +30,8 @@ public class Mentoria extends Conteudo{
     public String toString() {
         return "Mentoria{" +
                 "titulo='" + getTitulo() + '\'' +
-                ", descricao='" + getDescricao() + '\'' +
+                ",descricao='" + getDescricao() + '\'' +
                 "data=" + data +
                 '}';
-    }
-
-    @Override
-    public double cacularXP() {
-        return 0;
     }
 }
